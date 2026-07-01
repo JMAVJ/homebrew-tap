@@ -10,7 +10,7 @@ class ActuallyNaturalScrolling < Formula
     # https://docs.brew.sh/rubydoc/Formula.html#std_configure_args-instance_method
     system "./configure", "--disable-silent-rules", *std_configure_args
 
-    bin.install "actually-natural-scrolling"
+    bin.install "ActuallyNaturalScrolling" => "actually-natural-scrolling"
   end
 
   service do
